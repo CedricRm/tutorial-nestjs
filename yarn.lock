@@ -802,6 +802,11 @@
     picocolors "^1.0.0"
     tslib "^2.6.0"
 
+"@prisma/engines@5.4.0-integration-libsql-adapter.1":
+  version "5.4.0-integration-libsql-adapter.1"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-5.4.0-integration-libsql-adapter.1.tgz#39b2f67c2dae29504e6dab4989677b10a7215764"
+  integrity sha512-7taAvNhI5/eUERELVhgXsPRaHREv5UL8/vz1AwdlnfmKjb2QyH+4xhCDqRGP14YdkQ5xMN1Oj/bfseluaIaXoA==
+
 "@sinclair/typebox@^0.27.8":
   version "0.27.8"
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.27.8.tgz#6667fac16c436b5434a387a34dedb013198f6e6e"
@@ -4013,6 +4018,13 @@ pretty-format@^29.0.0, pretty-format@^29.7.0:
     "@jest/schemas" "^29.6.3"
     ansi-styles "^5.0.0"
     react-is "^18.0.0"
+
+prisma@^5.4.0-integration-libsql-adapter.1:
+  version "5.4.0-integration-libsql-adapter.1"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-5.4.0-integration-libsql-adapter.1.tgz#1200dbe3d32c0c07efeb84cc039616c73184f78a"
+  integrity sha512-ENH30521ZxCmAeJPpCvgrBFyWGX8k3itSLcEHpzMEEOf6cN9NiSJq0vvhz262+PfNMhBRlNS9JU8WaSJ/mG4ow==
+  dependencies:
+    "@prisma/engines" "5.4.0-integration-libsql-adapter.1"
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
